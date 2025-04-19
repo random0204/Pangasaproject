@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech WebApp - Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">FintechApp</div>
+        
+    </header>
+
+    <main>
+        <section class="balance-section">
+            <h1>Current Balance</h1>
+            <p id="currentBalance">₹ 0.00</p>
+        </section>
+
+        <section class="actions-section">
+            <button class="action-btn" onclick="location.href='accounts.html'">Account</button>
+            <button class="action-btn" onclick="location.href='transactions.html'">Transactions</button>
+        </section>
+        
+
+        <section class="bottom-section">
+            <div class="dropdown">
+                <button onclick="toggleDropdown('expenditureDropdown')" class="dropbtn">Home Expenditure</button>
+                <div id="expenditureDropdown" class="dropdown-content">
+                  <a href="expenditure.html">Priorities</a>
+                  <a href="expenditure.html">Payments</a>
+                  <a href="expenditure.html">Bills to Pay</a>
+                </div>
+              </div>
+              
+            </div>
+        
+            <button class="action-btn" onclick="location.href='credits.html'">Credits</button>
+            <button class="action-btn" onclick="location.href='paymentservices.html'">Payment Services</button>
+        </section>
+        
+
+           
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
